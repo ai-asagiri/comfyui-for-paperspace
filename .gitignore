@@ -1,0 +1,21 @@
+# Docker build artifacts
+.docker/
+docker-compose.override.yml
+*.env
+.env.*
+!.env.example
+
+# Docker runtime files
+*.log
+docker-compose.override.yaml
+.dockerignore
+
+# Docker volumes and data
+data/
+volumes/
+
+models/
+output/
+__pycache__/
+*.pyc
+.env
